@@ -1,2 +1,0 @@
-add_lunch_combo lineage_bardock-userdebug
-add_lunch_combo lineage_bardock-eng
