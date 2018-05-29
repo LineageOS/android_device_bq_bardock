@@ -1,9 +1,7 @@
 Copyright 2017 - The LineageOS Project
 
-Device configuration for BQ Aquaris X Pro (_bardockpro_)
+Device configuration for BQ Aquaris X (_bardock_)
 =====================================================
-
-If you have the non "pro" variant, please use [THIS](https://github.com/eloimuns/android_device_bq_bardock) device tree.
 
 Basic   | Spec Sheet
 -------:|:-------------------------
@@ -23,4 +21,4 @@ Fingerprint | Yes
 NFC | Yes
 Release Date | April 2017
 
-![BQ Aquaris X Pro](https://store.bq.com/media/catalog/product/cache/4/image/800x800/9df78eab33525d08d6e5fb8d27136e95/a/q/aquaris_xpro_black_frontal_800x800_4.jpg "BQ Aquaris X Pro")
+![BQ Aquaris X](https://store.bq.com/media/catalog/product/cache/4/image/800x800/9df78eab33525d08d6e5fb8d27136e95/a/q/aquaris_xpro_black_frontal_800x800_4.jpg "BQ Aquaris X")

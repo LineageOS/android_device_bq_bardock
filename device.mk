@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-$(call inherit-product, vendor/bq/bardockpro/bardockpro-vendor.mk)
+$(call inherit-product, vendor/bq/bardock/bardock-vendor.mk)
 
 # Init
 PRODUCT_PACKAGES += \

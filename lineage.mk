@@ -25,21 +25,21 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 $(call inherit-product, device/bq/msm8953-common/msm8953.mk)
 
 # Device
-$(call inherit-product, device/bq/bardockpro/device.mk)
+$(call inherit-product, device/bq/bardock/device.mk)
 
 PRODUCT_GMS_CLIENTID_BASE := android-bq
 
 # Device identifier. This must come after all inclusions
 TARGET_VENDOR := bq
-PRODUCT_DEVICE := bardockpro
-PRODUCT_NAME := lineage_bardockpro
+PRODUCT_DEVICE := bardock
+PRODUCT_NAME := lineage_bardock
 PRODUCT_BRAND := bq
-PRODUCT_MODEL := Aquaris X Pro
+PRODUCT_MODEL := Aquaris X
 PRODUCT_MANUFACTURER := bq
 BOARD_VENDOR := bq
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-        PRODUCT_NAME=bardock-pro \
-        PRIVATE_BUILD_DESC="bardockpro_bq-user 8.1.0 OPM1.171019.019 448 release-keys"
+        PRODUCT_NAME=bardock \
+        PRIVATE_BUILD_DESC="bardock_bq-user 8.1.0 OPM1.171019.019 439 release-keys"
 
-BUILD_FINGERPRINT := bq/bardock-pro/bardock-pro:8.1.0/OPM1.171019.019/448:user/release-keys
+BUILD_FINGERPRINT := bq/bardock/bardock:8.1.0/OPM1.171019.019/439:user/release-keys

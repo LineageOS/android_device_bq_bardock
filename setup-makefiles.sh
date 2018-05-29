@@ -18,7 +18,7 @@
 set -e
 
 # Required!
-DEVICE=bardockpro
+DEVICE=bardock
 VENDOR=bq
 
 INITIAL_COPYRIGHT_YEAR=2017

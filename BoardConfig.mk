@@ -16,10 +16,10 @@
 
 -include device/bq/msm8953-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/bq/bardockpro
+DEVICE_PATH := device/bq/bardock
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := bardock-pro,bardockpro
+TARGET_OTA_ASSERT_DEVICE := bardock
 
 # Kernel
 TARGET_KERNEL_CONFIG := bardock_defconfig
@@ -28,4 +28,4 @@ TARGET_KERNEL_CONFIG := bardock_defconfig
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
 
 # Inherit from the proprietary version
--include vendor/bq/bardockpro/BoardConfigVendor.mk
+-include vendor/bq/bardock/BoardConfigVendor.mk
