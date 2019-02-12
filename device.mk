@@ -15,7 +15,3 @@
 #
 
 $(call inherit-product, vendor/bq/bardock/bardock-vendor.mk)
-
-# Init
-PRODUCT_PACKAGES += \
-    init.target.rc
