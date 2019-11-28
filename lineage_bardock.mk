@@ -43,6 +43,6 @@ BOARD_VENDOR := bq
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
         PRODUCT_NAME=bardock \
-        PRIVATE_BUILD_DESC="bardock_bq-user 8.1.0 OPM1.171019.026 2168 release-keys"
+        PRIVATE_BUILD_DESC="bardock_bq-user 8.1.0 OPM1.171019.026 2394 release-keys"
 
-BUILD_FINGERPRINT := bq/bardock/bardock:8.1.0/OPM1.171019.026/2168:user/release-keys
+BUILD_FINGERPRINT := bq/bardock/bardock:8.1.0/OPM1.171019.026/2394:user/release-keys
