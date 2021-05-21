@@ -16,6 +16,10 @@
 
 $(call inherit-product, vendor/bq/bardock/bardock-vendor.mk)
 
+# Overlays
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay
+
 # Dalvik heap memory limits
 PRODUCT_PROPERTY_OVERRIDES += \
     dalvik.vm.heapstartsize=8m \
